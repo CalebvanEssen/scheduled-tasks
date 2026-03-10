@@ -36,5 +36,3 @@ if will_rain:
         body = "It's going to rain today. Be sure to bring an umbrella! ☔️",
         to="+31629249715"
     )
-
-print(message.body)
