@@ -32,9 +32,9 @@ for hour_data in weather_data["list"]:
 if will_rain:
    client = Client(account_sid, auth_token)
    message = client.messages.create(
-        from_="whatsapp:+14155238886",
+        from_="+17274967271",
         body = "It's going to rain today. Be sure to bring an umbrella! ☔️",
-        to="whatsapp:+64211776119"
+        to="+31629249715"
     )
 
 print(message.body)
